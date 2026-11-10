@@ -3,7 +3,7 @@
   ---------------------------------------------------------
   To add a future project, copy an object below and fill it in.
 
-  category   : "journalism" | "advertising" | "broadcast"
+  category   : "journalism" | "advertising" | "broadcast" | "capstone"
   title      : string
   desc       : one or two sentence description
   tags       : array of short tag strings (used by search + filters)
@@ -14,6 +14,32 @@
 */
 
 window.PORTFOLIO_ITEMS = [
+
+  // ---------------- Senior Capstone Class Articles ----------------
+  {
+    category: "capstone",
+    title: "GSP Runway Repairs Support Upstate Growth",
+    desc: "Greenville-Spartanburg International Airport is spending $27.7 million to rehabilitate its only runway. Airport and state aviation officials explain why the work matters as Upstate passenger traffic keeps climbing.",
+    tags: ["Business Reporting", "Aviation", "Upstate"],
+    link: "assets/pdf/clips/gsp-runway-repairs.pdf",
+    meta: "Senior Capstone · Fall 2026"
+  },
+  {
+    category: "capstone",
+    title: "Lanier Falcons Navigate Leadership Changes",
+    desc: "After years of shrinking membership, a BJU society was handed to a new leadership team from outside and rushed more than 40 freshmen. Campus leaders and a former president weigh in on what that means for Lanier's identity.",
+    tags: ["Campus News", "Bob Jones University", "Student Life"],
+    link: "assets/pdf/clips/lanier-falcons-leadership-changes.pdf",
+    meta: "Senior Capstone · Fall 2026"
+  },
+  {
+    category: "capstone",
+    title: "Should Churches Use Halloween for Outreach?",
+    desc: "A youth pastor and Lifeway Research survey data frame how churches weigh Halloween's popularity as an outreach opportunity against concerns about its traditions.",
+    tags: ["Religion", "Feature Story", "Community"],
+    link: "assets/pdf/clips/churches-halloween-outreach.pdf",
+    meta: "Senior Capstone · Fall 2026"
+  },
 
   // ---------------- Journalism ----------------
   {

@@ -102,7 +102,7 @@
   var filterBtns = document.querySelectorAll('.filter-btn');
   var activeCategory = 'all';
 
-  var CATEGORY_LABEL = {journalism:'Journalism', advertising:'Advertising', broadcast:'Broadcast'};
+  var CATEGORY_LABEL = {journalism:'Journalism', advertising:'Advertising', broadcast:'Broadcast', capstone:'Senior Capstone'};
   var CATEGORY_ICON = {
     journalism:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5"/><path d="M8 8h6M8 12h8M8 16h5"/></svg>',
     advertising:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1Z"/><path d="M15 9a3 3 0 0 1 0 6M18 6a6 6 0 0 1 0 12"/></svg>',
@@ -136,7 +136,7 @@
     return '' +
     '<article class="card" data-category="' + item.category + '" data-search="' + escapeHtml(searchBlob) + '" style="--i:' + index + '">' +
       '<div class="card-thumb ' + catClass + '">' +
-        CATEGORY_ICON[item.category] +
+        (CATEGORY_ICON[item.category] || '') +
         (soon ? '<span class="card-badge">Coming soon</span>' : '') +
         '<span class="thumb-cat">' + CATEGORY_LABEL[item.category] + '</span>' +
       '</div>' +

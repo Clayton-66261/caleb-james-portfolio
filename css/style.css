@@ -297,6 +297,7 @@ section{padding:clamp(64px,10vw,120px) 0;}
 .thumb-journalism{background:linear-gradient(135deg,var(--navy) 0%, #163a5f 60%, #1c4470 100%);}
 .thumb-advertising{background:linear-gradient(135deg,#7a5c19 0%, var(--gold-strong) 70%, #d4b452 100%);}
 .thumb-broadcast{background:linear-gradient(135deg,#2b2f34 0%, #3d434a 65%, #4d545c 100%);}
+.thumb-capstone{background:linear-gradient(135deg,var(--navy) 0%, #1c4470 55%, var(--gold-strong) 100%);}
 .card-thumb::before{
   content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(115deg, rgba(255,255,255,.06) 0 2px, transparent 2px 26px);
   pointer-events:none;
